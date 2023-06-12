@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+.countdown {
+  font-family: 'EB Garamond', serif;
+  font-size: 35px;
+  text-align: center;
+  color: #afaa6b
+}
+@font-face {
+    font-family: 'HolidayFree';
+    src: url('./HolidayFree.otf') format('truetype');
+  }
+@font-face {
+    font-family: 'gentium';
+    src: url(./gentium.ttf) format('truetype')
+}
+@font-face {
+    font-family: 'riwaya';
+    src: url(./29LT\ Riwaya\ Italic.ttf) format('truetype')
+}
+.fondo {
+    background-color: rgba(237, 235, 232);
+}
+.div-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'HolidayFree', sans-serif;
+    font-size: 3rem;
+    padding-top: 50px;   
+    }
+
+.div-img .nombres {
+    margin-bottom: 20px;
+}
+
+.div-img .fecha {
+    font-family: 'gentium';
+    font-size: 2rem;
+    padding-bottom: 50px;
+    margin-top: 0;
+
+}
+.imagen-texto {
+    width: 1500px;
+    height: 1150px;
+}
+span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'riwaya', lighter;
+    font-size: 2rem;
+    color: #26272b;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #afaa6b;
+  }
+
+  audio::-webkit-media-controls-play-button {
+    color: #afaa6b;
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #afaa6b;
+  }
+
+  audio::-webkit-media-controls-mute-button {
+    color: #afaa6b;
+  }
+
+  audio::-webkit-media-controls-timeline {
+    background-color: #afaa6b;
+  }
+  audio {
+    display: block;
+    margin: 0 auto;
+  }
+.botones {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.botones a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  color: #afaa6b;
+  text-decoration: none;
+}
+.botones span {
+  color: black; 
+  font-size: 30px;
+  font-family: 'riwaya', lighter;
+  font-size: 23px;
+  text-decoration: none;
+}
+.botones i  {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+  @media (max-width: 768px) {
+    .div-img {
+      font-size: 2rem;
+      padding-top: 50px; 
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  
+    .div-img .fecha {
+      font-size: 1.5rem;
+    }
+
+    .imagen-texto img {
+      max-width: 100%;
+      height: 600px;
+    }
+  
+    span {
+      font-size: 1.5rem;
+    }
+  
+    .botones a {
+      font-size: 1.5rem;
+    }
+  
+    .botones span {
+      font-size: 1rem;
+    }
+  
+    .botones i {
+      font-size: 1.5rem;
+    }
+  }
+
